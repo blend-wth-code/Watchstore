@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CC7C7B"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helping_hands_home"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:typeface="monospace"
+        android:id="@+id/brand"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:src="@drawable/helping_hands"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:layout_marginStart="-3mm"
+        android:text="@string/clock_in"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/startButton"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
