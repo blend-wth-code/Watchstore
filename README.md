@@ -1,3 +1,3 @@
 # WatchStore
 
-A flutter e-commmerce project
+A e-commmerce project build using Android SDK - java
